@@ -99,3 +99,16 @@ h4{
     }
 
 }
+
+/* teste de grid */
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.projects a{
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
